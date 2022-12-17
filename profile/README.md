@@ -9,11 +9,11 @@ including a [tutorial](https://abm4all.github.io/Melodie/html/tutorial.html)
 explaining how an agent-based [covid contagion model](https://github.com/ABM4ALL/CovidContagion) 
 can be developed with **Melodie** step by step. 
   * A series of example models showing how different modules are implemented:
-    * [CovidGridContagion](https://github.com/ABM4ALL/CovidGridContagion) --> `Grid` module
-    * [CovidNetworkContagion](https://github.com/ABM4ALL/CovidNetworkContagion) --> `Network` module
-    * [CovidContagionCalibrator](https://github.com/ABM4ALL/CovidContagionCalibrator) --> `Calibrator` module
-    * [CovidGridContagionVisual](https://github.com/ABM4ALL/CovidGridContagionVisual) 
-and [CovidNetworkContagionVisual](https://github.com/ABM4ALL/CovidNetworkContagionVisual) --> `Visualizer` and `MelodieStudio` module
+    * `Grid` &rarr; CovidGridContagion [[code](https://github.com/ABM4ALL/CovidGridContagion)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_grid_contagion.html)]
+    * `Network` &rarr; CovidNetworkContagion [[code](https://github.com/ABM4ALL/CovidNetworkContagion)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_network_contagion.html)]
+    * `Calibrator` &rarr; CovidContagionCalibrator [[code](https://github.com/ABM4ALL/CovidContagionCalibrator)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_calibrator.html)]
+    * `Visualizer` and `MelodieStudio` &rarr; CovidGridContagionVisual [[code](https://github.com/ABM4ALL/CovidGridContagionVisual)] 
+and CovidNetworkContagionVisual [[code](https://github.com/ABM4ALL/CovidNetworkContagionVisual)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_visual.html)]
 
 We really hope ABM4ALL is useful for you, and most importantly, 
 brings you the interest to join the ABM community! 
