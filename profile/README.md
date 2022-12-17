@@ -4,6 +4,7 @@ ABM4ALL is a developing community among agent-based modelers for sharing ideas a
 Currently, the projects are created and maintained by *Songmin Yu* and *Zhanyi Hou*. 
 
   * [Melodie](https://github.com/ABM4ALL/Melodie) - a general framework for developing agent-based models (ABMs) in Python. 
+  * [MelodieStudio](https://github.com/ABM4ALL/MelodieStudio) - a package developed in parallel with **Melodie** which interacts with the `Melodie.Visualizer` module and visualizes the simulation results in the browser.
   * [Documentation](https://abm4all.github.io/Melodie/html/index.html), 
 including a [tutorial](https://abm4all.github.io/Melodie/html/tutorial.html) 
 explaining how an agent-based [covid contagion model](https://github.com/ABM4ALL/CovidContagion) 
