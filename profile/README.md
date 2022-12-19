@@ -13,6 +13,7 @@ can be developed with **Melodie** step by step.
     * `Grid` &rarr; CovidGridContagion [[code](https://github.com/ABM4ALL/CovidGridContagion)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_grid_contagion.html)]
     * `Network` &rarr; CovidNetworkContagion [[code](https://github.com/ABM4ALL/CovidNetworkContagion)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_network_contagion.html)]
     * `Calibrator` &rarr; CovidContagionCalibrator [[code](https://github.com/ABM4ALL/CovidContagionCalibrator)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_calibrator.html)]
+    * `Trainer` &rarr; RockPaperScissorsTrainer [[code](https://github.com/ABM4ALL/RockPaperScissorsTrainer)] [[doc](https://abm4all.github.io/Melodie/html/gallery/rock_paper_scissors.html)]
     * `Visualizer` and `MelodieStudio` &rarr; CovidGridContagionVisual [[code](https://github.com/ABM4ALL/CovidGridContagionVisual)] 
 and CovidNetworkContagionVisual [[code](https://github.com/ABM4ALL/CovidNetworkContagionVisual)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_visual.html)]
 
