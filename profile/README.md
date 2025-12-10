@@ -5,17 +5,18 @@ Currently, the projects are created and maintained by *Songmin Yu* and *Zhanyi H
 
   * [Melodie](https://github.com/ABM4ALL/Melodie) - a general framework for developing agent-based models (ABMs) in Python. 
   * [MelodieStudio](https://github.com/ABM4ALL/MelodieStudio) - a package developed in parallel with **Melodie** which interacts with the `Melodie.Visualizer` module and visualizes the simulation results in the browser.
+  * [tab2dict](https://github.com/ABM4ALL/tab2dict) - a detailed package for managing input data in ABMs.
 
-Please note that:
+To start, our [documentation](https://abm4all.github.io/Melodie/html/index.html) is the best option. The [tutorial](https://abm4all.github.io/Melodie/html/tutorial.html) section gives you a detailed explanation of the [covid_contagion](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion) model, which is a minimum example containing all the core modules provided by **Melodie** for developing agent-based models. 
 
-  * At the moment, the latest example for understanding Melodie (since version 1.0.0) is [DatingMarket](https://github.com/ABM4ALL/DatingMarket). It is an example developed in combination with [tab2dict](https://github.com/ABM4ALL/tab2dict), a tool that supports loading, retrieving, and collecting data in developing ABMs. 
-  * The [documentation](https://abm4all.github.io/Melodie/html/index.html), and earlier [tutorial](https://abm4all.github.io/Melodie/html/tutorial.html) for the [covid contagion model](https://github.com/ABM4ALL/CovidContagion) need to be updated, as well as the following examples. If you want to try running them, please use version 0.7.0 of Melodie. 
-    * `Grid` &rarr; CovidGridContagion [[code](https://github.com/ABM4ALL/CovidGridContagion)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_grid_contagion.html)]
-    * `Network` &rarr; CovidNetworkContagion [[code](https://github.com/ABM4ALL/CovidNetworkContagion)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_network_contagion.html)]
-    * `Calibrator` &rarr; CovidContagionCalibrator [[code](https://github.com/ABM4ALL/CovidContagionCalibrator)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_calibrator.html)]
-    * `Trainer` &rarr; RockPaperScissorsTrainer [[code](https://github.com/ABM4ALL/RockPaperScissorsTrainer)] [[doc](https://abm4all.github.io/Melodie/html/gallery/rock_paper_scissors.html)]
-    * `Visualizer` and `MelodieStudio` &rarr; CovidGridContagionVisual [[code](https://github.com/ABM4ALL/CovidGridContagionVisual)] 
-and CovidNetworkContagionVisual [[code](https://github.com/ABM4ALL/CovidNetworkContagionVisual)] [[doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_visual.html)]
-    * `ABMFrameworkComparison` &rarr; to compare the three Python packages - Mesa, AgentPy, and Melodie - we develop the same agent-based covid contagion model with all of them. [[code](https://github.com/ABM4ALL/ABMFrameworkComparison)] [[doc](https://abm4all.github.io/Melodie/html/framework_comparison.html)]
+* Then, for those who are familiar with Mesa or AgentPy, we also provide a [comparison](https://abm4all.github.io/Melodie/html/framework_comparison.html) between Melodie and the two packages. We prepared the code implementing the tutorial model with [Mesa](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_mesa) and [AgentPy](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_agentpy).
+* Furthermore, starting from the tutorial model [covid_contagion](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion), following models are also provided with code and documentation to showcase the use of other optional modules in **Melodie**:
+  * `Grid` [[code](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_grid), [doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_grid.html)]: supports simulations where agents move and interact on a 2D discrete space. 
+  * `Network` [[code](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_network), [doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_network.html)]: supports simulations where agents interact based on a graph topology. 
+  * `Visualizer` and `MelodieStudio` [[code](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_grid_visual), [doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_grid_visual.html)]: visualizes the simulation results (agent movement, charts) in the browser in real-time. 
+  * `Calibrator` [[code](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_calibrator), [doc](https://abm4all.github.io/Melodie/html/gallery/covid_contagion_calibrator.html)]: automatically calibrates the model parameters to match the empirical data using Genetic Algorithm. 
+  * `Trainer` [[code](https://github.com/ABM4ALL/Melodie/tree/master/examples/rock_paper_scissors_trainer), [doc](https://abm4all.github.io/Melodie/html/gallery/rock_paper_scissors_trainer.html)]: searches for the optimal strategy for agents to maximize their utility using evolutionary reinforcement training.
 
-We really hope ABM4ALL is useful for you, and most importantly, brings you the interest to join the ABM community! 
+Finally, apart from the [examples](https://github.com/ABM4ALL/Melodie/tree/master/examples) in the Melodie repo, we will also share other (probably more complicated) models developed with **Melodie**. At the moment, we have [DatingMarket](https://github.com/ABM4ALL/DatingMarket), which showcases how **tab2dict** can be used in **Melodie**. 
+
+We really hope ABM4ALL is useful for you, and most importantly, inspires you to join the ABM community! 
