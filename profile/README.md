@@ -6,6 +6,7 @@ Currently, the projects are created and maintained by *Songmin Yu* and *Zhanyi H
   * [Melodie](https://github.com/ABM4ALL/Melodie) - a general framework for developing agent-based models (ABMs) in Python. 
   * [MelodieStudio](https://github.com/ABM4ALL/MelodieStudio) - a package developed in parallel with **Melodie** which interacts with the `Melodie.Visualizer` module and visualizes the simulation results in the browser in real-time.
   * [tab2dict](https://github.com/ABM4ALL/tab2dict) - a detailed package for managing input data in ABMs.
+  * [melodie_spec](https://github.com/ABM4ALL/melodie_spec) - A structural prompt kit that empowers AI agents to bootstrap Melodie Agent-Based Models from a simple story.
 
 To start, our [documentation](https://abm4all.github.io/Melodie/html/index.html) is the best option. The [tutorial](https://abm4all.github.io/Melodie/html/tutorial.html) section gives you a detailed explanation of the [covid_contagion](https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion) model, which is a minimum example containing all the core modules provided by **Melodie** for developing agent-based models. 
 
